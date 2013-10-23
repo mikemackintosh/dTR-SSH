@@ -1,0 +1,27 @@
+{
+    "name": "dtr/ssh",
+    "description": "dTR-SSH is a SSHv2 library",
+    "keywords": ["ssh", "networking", "dtr"],
+    "homepage": "http://bakeryframework.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Mackintosh",
+            "email": "mike@bakeryframework.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "dTR": "src/"
+        }
+    },
+   "require": {
+        "php": ">=5.4"
+    },
+    "minimum-stability": "dev",
+ 	"extra": {
+        "branch-alias": {
+            "dev-master": "0.8.1-dev"
+        }
+    }
+}
